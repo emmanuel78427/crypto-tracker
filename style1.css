@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin: 10px;
+}
+.navbar input, select {
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 12px;
+    background-color:#1e293b;
+    color: white;
+    border: none;   
+}
+.navbar_right {
+    display: flex;
+    gap: 13px;
+}
+
+#status {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+  
+    margin-left: 0 auto;
+    border: 3px solid grey;
+    border-radius: 20px;
+
+}
+#dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    justify-content: center;
+    gap: 10px
+
+}
+.card {
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin: 2px;
+    background-color: grey;
+    padding: 12px;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #38bdf8;
+}
+.card img {
+    width: 40px;
+    height: 40px;
+}
+.coin-top {
+    display: flex; 
+    gap: 15px  
+}
+.price , .change {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 3px
+}
+
+.change {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* GREEN */
+
+.positive {
+  color: #22c55e;
+}
+
+/* RED */
+
+.negative {
+  color: #ef4444;
+}
+

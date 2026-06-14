@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Crypto Tracker</title>
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- TOP SECTION -->
+    <div class="top-bar">
+
+      <h1>🚀 Crypto Tracker</h1>
+
+      <div class="controls">
+
+        <!-- SEARCH INPUT -->
+        <input
+          type="text"
+          id="search"
+          placeholder="Search cryptocurrency..."
+        />
+
+        <!-- CURRENCY DROPDOWN -->
+        <select id="currencyType">
+
+          <option value="usd">USD</option>
+          <option value="eur">EUR</option>
+          <option value="inr">INR</option>
+
+        </select>
+
+      </div>
+
+    </div>
+
+    <!-- STATUS -->
+    <div id="status">
+      Loading cryptocurrencies...
+    </div>
+
+    <!-- COINS CONTAINER -->
+     
+    <div class="dashboard" id="dashboard"></div>
+      
+  </div>
+
+  <!-- JS FILE -->
+  <script src="script.js"></script>
+
+</body>
+</html>
